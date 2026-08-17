@@ -20,13 +20,13 @@ source .venv/bin/activate
 pip3 install -r requirements.txt
 ```
 
-### Run
+### run
 
 ```bash
 python3 server.py
 ```
 
-### Development
+### development
 
 ```bash
 mcp dev server.py

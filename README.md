@@ -5,6 +5,12 @@
 ### get_account_balance
 获取阿里云账户余额
 
+### get_daily_cost
+获取阿里云某天花费的金额
+
+### get_monthly_cost
+获取阿里云某月花费的金额
+
 ## Start
 
 ### virtual environment

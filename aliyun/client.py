@@ -1,6 +1,7 @@
 import os
 from alibabacloud_tea_openapi import models as open_api_models
 from alibabacloud_bssopenapi20171214.client import Client as BssOpenApi20171214Client
+from alibabacloud_bssopenapi20171214 import models as bss_models
 from dotenv import load_dotenv
 load_dotenv()
 
@@ -16,3 +17,23 @@ class AliyunClient:
     def get_account_balance(self):
         response = self.client.query_account_balance()
         return response.body.data.to_map()
+
+    def get_daily_cost(self, date: str):
+        request = bss_models.QueryAccountBillRequest(
+            billing_cycle=date[:7],
+            is_group_by_product=True,
+            billing_date=date,
+
+            granularity="DAILY",
+        )
+        resp = self.client.query_account_bill(request)
+        return resp.body.data.to_map()
+
+    def get_monthly_cost(self, month: str):
+        request = bss_models.QueryAccountBillRequest(
+            billing_cycle=month,
+            is_group_by_product=True,
+            granularity="MONTHLY",
+        )
+        resp = self.client.query_account_bill(request)
+        return resp.body.data.to_map()

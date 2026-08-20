@@ -11,6 +11,9 @@
 ### get_monthly_cost
 获取阿里云某月花费的金额
 
+### describe_instance_status
+查询阿里云 ECS 实例的状态信息列表（通过 RegionId）
+
 ## Start
 
 ### virtual environment

@@ -20,6 +20,9 @@
 ### list_users
 查询所有阿里云 RAM 用户
 
+### get_user
+查询阿里云 RAM 用户的详细信息
+
 ## Start
 
 ### virtual environment

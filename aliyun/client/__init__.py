@@ -4,6 +4,7 @@ from .describe_instances import AliyunClient as DescribeInstancesClient
 from .get_account_balance import AliyunClient as GetAccountBalanceClient
 from .get_daily_cost import AliyunClient as GetDailyCostClient
 from .get_monthly_cost import AliyunClient as GetMonthlyCostClient
+from .get_user import AliyunClient as GetUserClient
 from .list_users import AliyunClient as ListUsersClient
 
 __all__ = [
@@ -13,5 +14,6 @@ __all__ = [
     "GetAccountBalanceClient",
     "GetDailyCostClient",
     "GetMonthlyCostClient",
+    "GetUserClient",
     "ListUsersClient",
 ]

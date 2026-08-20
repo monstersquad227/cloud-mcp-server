@@ -29,6 +29,9 @@
 ### delete_user
 删除一个阿里云 RAM 用户
 
+### create_user
+创建阿里云 RAM 用户
+
 ## Start
 
 ### virtual environment

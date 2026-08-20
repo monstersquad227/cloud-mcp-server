@@ -11,6 +11,7 @@ from aliyun.tools.list_policies_for_user import register as aliyun_list_policies
 from aliyun.tools.delete_user import register as aliyun_delete_user_tools
 from aliyun.tools.create_user import register as aliyun_create_user_tools
 from aliyun.tools.add_user_to_group import register as aliyun_add_user_to_group_tools
+from aliyun.tools.list_groups import register as aliyun_list_groups_tools
 
 mcp = FastMCP("cloud-mcp-server", host="0.0.0.0", port=10000)
 
@@ -26,6 +27,7 @@ aliyun_list_policies_for_user_tools(mcp)
 aliyun_delete_user_tools(mcp)
 aliyun_create_user_tools(mcp)
 aliyun_add_user_to_group_tools(mcp)
+aliyun_list_groups_tools(mcp)
 
 if __name__ == "__main__":
     mcp.run(transport="sse")

@@ -35,6 +35,9 @@
 ### add_user_to_group
 将阿里云 RAM 用户添加到指定的用户组
 
+### list_groups
+查询阿里云 RAM 用户组列表
+
 ## Start
 
 ### virtual environment

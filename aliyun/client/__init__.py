@@ -1,4 +1,5 @@
 from .base import AliyunBaseClient
+from .delete_user import AliyunClient as DeleteUserClient
 from .describe_instance_status import AliyunClient as DescribeInstanceStatusClient
 from .describe_instances import AliyunClient as DescribeInstancesClient
 from .get_account_balance import AliyunClient as GetAccountBalanceClient
@@ -10,6 +11,7 @@ from .list_users import AliyunClient as ListUsersClient
 
 __all__ = [
     "AliyunBaseClient",
+    "DeleteUserClient",
     "DescribeInstanceStatusClient",
     "DescribeInstancesClient",
     "GetAccountBalanceClient",

@@ -26,6 +26,9 @@
 ### list_policies_for_user
 查询阿里云 RAM 用户的授权列表
 
+### delete_user
+删除一个阿里云 RAM 用户
+
 ## Start
 
 ### virtual environment

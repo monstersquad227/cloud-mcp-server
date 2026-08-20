@@ -38,6 +38,9 @@
 ### list_groups
 查询阿里云 RAM 用户组列表
 
+### remove_user_from_group
+将阿里云 RAM 用户从用户组中移除
+
 ## Start
 
 ### virtual environment

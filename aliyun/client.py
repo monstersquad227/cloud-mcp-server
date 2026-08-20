@@ -18,22 +18,25 @@ class AliyunClient:
         response = self.client.query_account_balance()
         return response.body.data.to_map()
 
-    def get_daily_cost(self, date: str):
+    def get_daily_cost(self, date: str, page_size: int = 20, page_num: int = 1):
         request = bss_models.QueryAccountBillRequest(
             billing_cycle=date[:7],
             is_group_by_product=True,
             billing_date=date,
-
             granularity="DAILY",
+            page_size=page_size,
+            page_num=page_num,
         )
         resp = self.client.query_account_bill(request)
         return resp.body.data.to_map()
 
-    def get_monthly_cost(self, month: str):
+    def get_monthly_cost(self, date: str, page_size: int = 20, page_num: int = 1):
         request = bss_models.QueryAccountBillRequest(
-            billing_cycle=month,
+            billing_cycle=date,
             is_group_by_product=True,
             granularity="MONTHLY",
+            page_size=page_size,
+            page_num=page_num,
         )
         resp = self.client.query_account_bill(request)
         return resp.body.data.to_map()

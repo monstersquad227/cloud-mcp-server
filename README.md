@@ -32,6 +32,9 @@
 ### create_user
 创建阿里云 RAM 用户
 
+### add_user_to_group
+将阿里云 RAM 用户添加到指定的用户组
+
 ## Start
 
 ### virtual environment

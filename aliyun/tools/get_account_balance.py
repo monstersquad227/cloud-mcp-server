@@ -1,4 +1,4 @@
-from aliyun.client import AliyunClient
+from aliyun.client.get_account_balance import AliyunClient
 
 
 def register(mcp):

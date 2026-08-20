@@ -1,4 +1,4 @@
-from aliyun.client import AliyunClient
+from aliyun.client.get_daily_cost import AliyunClient
 
 
 def register(mcp):

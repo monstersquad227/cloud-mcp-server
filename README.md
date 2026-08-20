@@ -23,6 +23,9 @@
 ### get_user
 查询阿里云 RAM 用户的详细信息
 
+### list_policies_for_user
+查询阿里云 RAM 用户的授权列表
+
 ## Start
 
 ### virtual environment

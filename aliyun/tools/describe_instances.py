@@ -1,0 +1,24 @@
+from aliyun.client.describe_instances import AliyunClient
+
+
+def register(mcp):
+    client = AliyunClient()
+
+    @mcp.tool("describe_aliyun_instances")
+    def describe_instances(
+        region_id: str,
+        page_number: int = 1,
+        page_size: int = 10,
+    ) -> dict:
+        """查询阿里云 ECS 实例的详细信息列表
+
+        Args:
+            region_id: 实例所属地域 ID, 示例值: cn-hangzhou.
+            page_number: 页码, 起始值为 1, 默认值 1.
+            page_size: 每页数量, 取值范围 1~100, 默认值 10.
+        """
+        return client.describe_instances(
+            region_id=region_id,
+            page_number=page_number,
+            page_size=page_size,
+        )

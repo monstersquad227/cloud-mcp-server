@@ -14,6 +14,9 @@
 ### describe_instance_status
 查询阿里云 ECS 实例的状态信息列表（通过 RegionId）
 
+### describe_instances
+查询阿里云 ECS 实例的详细信息列表（通过 RegionId）
+
 ## Start
 
 ### virtual environment

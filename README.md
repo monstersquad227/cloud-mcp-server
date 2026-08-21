@@ -53,6 +53,9 @@
 ### remove_user_from_group
 将阿里云 RAM 用户从用户组中移除
 
+### get_kubernetes_cluster_info
+获取 Kubernetes 集群信息。`cluster` 按约定选配置文件：不传 -> `kubeconfig`，`fat` -> `fatkubeconfig`，`prod` -> `prodkubeconfig`。
+
 ## Start
 
 ### virtual environment

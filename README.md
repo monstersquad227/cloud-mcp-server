@@ -23,6 +23,9 @@
 ### describe_security_group_attribute
 查询阿里云安全组和组内规则信息（通过 RegionId 与 SecurityGroupId）
 
+### authorize_security_group
+增加阿里云安全组入方向规则
+
 ### list_users
 查询所有阿里云 RAM 用户
 

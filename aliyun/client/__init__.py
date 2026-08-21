@@ -1,4 +1,5 @@
 from .add_user_to_group import AliyunClient as AddUserToGroupClient
+from .authorize_security_group import AliyunClient as AuthorizeSecurityGroupClient
 from .base import AliyunBaseClient
 from .create_user import AliyunClient as CreateUserClient
 from .delete_user import AliyunClient as DeleteUserClient
@@ -17,6 +18,7 @@ from .remove_user_from_group import AliyunClient as RemoveUserFromGroupClient
 
 __all__ = [
     "AddUserToGroupClient",
+    "AuthorizeSecurityGroupClient",
     "AliyunBaseClient",
     "CreateUserClient",
     "DeleteUserClient",

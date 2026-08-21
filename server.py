@@ -8,6 +8,7 @@ from aliyun.tools.describe_instances import register as aliyun_describe_instance
 from aliyun.tools.describe_security_groups import register as aliyun_describe_security_groups_tools
 from aliyun.tools.describe_security_group_attribute import register as aliyun_describe_security_group_attribute_tools
 from aliyun.tools.authorize_security_group import register as aliyun_authorize_security_group_tools
+from aliyun.tools.revoke_security_group import register as aliyun_revoke_security_group_tools
 from aliyun.tools.list_users import register as aliyun_list_users_tools
 from aliyun.tools.get_user import register as aliyun_get_user_tools
 from aliyun.tools.list_policies_for_user import register as aliyun_list_policies_for_user_tools
@@ -28,6 +29,7 @@ aliyun_describe_instances_tools(mcp)
 aliyun_describe_security_groups_tools(mcp)
 aliyun_describe_security_group_attribute_tools(mcp)
 aliyun_authorize_security_group_tools(mcp)
+aliyun_revoke_security_group_tools(mcp)
 aliyun_list_users_tools(mcp)
 aliyun_get_user_tools(mcp)
 aliyun_list_policies_for_user_tools(mcp)

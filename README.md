@@ -26,6 +26,9 @@
 ### authorize_security_group
 增加阿里云安全组入方向规则
 
+### revoke_security_group
+删除阿里云安全组入方向规则
+
 ### list_users
 查询所有阿里云 RAM 用户
 

@@ -15,6 +15,7 @@ from .list_groups import AliyunClient as ListGroupsClient
 from .list_policies_for_user import AliyunClient as ListPoliciesForUserClient
 from .list_users import AliyunClient as ListUsersClient
 from .remove_user_from_group import AliyunClient as RemoveUserFromGroupClient
+from .revoke_security_group import AliyunClient as RevokeSecurityGroupClient
 
 __all__ = [
     "AddUserToGroupClient",
@@ -34,4 +35,5 @@ __all__ = [
     "ListPoliciesForUserClient",
     "ListUsersClient",
     "RemoveUserFromGroupClient",
+    "RevokeSecurityGroupClient",
 ]

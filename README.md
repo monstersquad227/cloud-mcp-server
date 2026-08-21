@@ -17,6 +17,9 @@
 ### describe_instances
 查询阿里云 ECS 实例的详细信息列表（通过 RegionId）
 
+### describe_security_groups
+查询阿里云安全组基本信息列表（通过 RegionId）
+
 ### list_users
 查询所有阿里云 RAM 用户
 

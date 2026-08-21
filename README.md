@@ -59,6 +59,9 @@
 ### list_kubernetes_namespaces
 列出 Kubernetes 集群中的命名空间
 
+### list_kubernetes_deployments
+列出指定命名空间中的 Deployment
+
 ## Start
 
 ### virtual environment

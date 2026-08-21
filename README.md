@@ -56,6 +56,9 @@
 ### get_kubernetes_cluster_info
 获取 Kubernetes 集群信息。`cluster` 按约定选配置文件：不传 -> `kubeconfig`，`fat` -> `fatkubeconfig`，`prod` -> `prodkubeconfig`。
 
+### list_kubernetes_namespaces
+列出 Kubernetes 集群中的命名空间
+
 ## Start
 
 ### virtual environment

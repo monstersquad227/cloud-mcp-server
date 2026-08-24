@@ -65,6 +65,7 @@ class KubernetesBaseClient:
         api_client = client.ApiClient(configuration)
         self.core_v1 = client.CoreV1Api(api_client)
         self.apps_v1 = client.AppsV1Api(api_client)
+        self.networking_v1beta1 = client.NetworkingV1beta1Api(api_client)
         self.custom_objects = client.CustomObjectsApi(api_client)
         self.version_api = client.VersionApi(api_client)
         self._kubeconfig = kubeconfig

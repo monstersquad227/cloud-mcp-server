@@ -65,6 +65,9 @@
 ### list_kubernetes_services
 列出指定命名空间中的 Service
 
+### list_kubernetes_ingresses
+列出指定命名空间中的 Ingress
+
 ### get_kubernetes_service
 查看指定 Service 的详细信息（规格、端口、Endpoints、关联 Pod）
 

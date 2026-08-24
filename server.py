@@ -21,6 +21,7 @@ from k8s.v1_18.tools.get_cluster_info import register as kubernetes_get_cluster_
 from k8s.v1_18.tools.list_namespaces import register as kubernetes_list_namespaces_tools
 from k8s.v1_18.tools.list_deployments import register as kubernetes_list_deployments_tools
 from k8s.v1_18.tools.list_services import register as kubernetes_list_services_tools
+from k8s.v1_18.tools.list_ingresses import register as kubernetes_list_ingresses_tools
 from k8s.v1_18.tools.get_service import register as kubernetes_get_service_tools
 from k8s.v1_18.tools.get_deployment_metrics import register as kubernetes_get_deployment_metrics_tools
 from k8s.v1_18.tools.get_deployment import register as kubernetes_get_deployment_tools
@@ -49,6 +50,7 @@ kubernetes_get_cluster_info_tools(mcp)
 kubernetes_list_namespaces_tools(mcp)
 kubernetes_list_deployments_tools(mcp)
 kubernetes_list_services_tools(mcp)
+kubernetes_list_ingresses_tools(mcp)
 kubernetes_get_service_tools(mcp)
 kubernetes_get_deployment_tools(mcp)
 kubernetes_get_deployment_metrics_tools(mcp)

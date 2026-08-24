@@ -62,6 +62,9 @@
 ### list_kubernetes_deployments
 列出指定命名空间中的 Deployment
 
+### get_kubernetes_deployment
+查看指定 Deployment 的详细信息（规格、状态、容器、关联 Pod）
+
 ### get_kubernetes_deployment_metrics
 查看指定 Deployment 的 CPU / 内存指标（requests、limits、实时用量）
 

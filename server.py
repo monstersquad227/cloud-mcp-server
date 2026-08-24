@@ -21,6 +21,7 @@ from k8s.v1_18.tools.get_cluster_info import register as kubernetes_get_cluster_
 from k8s.v1_18.tools.list_namespaces import register as kubernetes_list_namespaces_tools
 from k8s.v1_18.tools.list_deployments import register as kubernetes_list_deployments_tools
 from k8s.v1_18.tools.get_deployment_metrics import register as kubernetes_get_deployment_metrics_tools
+from k8s.v1_18.tools.get_deployment import register as kubernetes_get_deployment_tools
 
 mcp = FastMCP("cloud-mcp-server", host="0.0.0.0", port=10000)
 
@@ -45,6 +46,7 @@ aliyun_remove_user_from_group_tools(mcp)
 kubernetes_get_cluster_info_tools(mcp)
 kubernetes_list_namespaces_tools(mcp)
 kubernetes_list_deployments_tools(mcp)
+kubernetes_get_deployment_tools(mcp)
 kubernetes_get_deployment_metrics_tools(mcp)
 
 if __name__ == "__main__":

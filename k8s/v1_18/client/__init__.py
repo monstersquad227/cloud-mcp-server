@@ -4,6 +4,7 @@ from .get_deployment import KubernetesClient as GetDeploymentClient
 from .get_deployment_metrics import KubernetesClient as GetDeploymentMetricsClient
 from .list_deployments import KubernetesClient as ListDeploymentsClient
 from .list_namespaces import KubernetesClient as ListNamespacesClient
+from .list_services import KubernetesClient as ListServicesClient
 
 __all__ = [
     "KubernetesBaseClient",
@@ -12,4 +13,5 @@ __all__ = [
     "GetDeploymentMetricsClient",
     "ListDeploymentsClient",
     "ListNamespacesClient",
+    "ListServicesClient",
 ]

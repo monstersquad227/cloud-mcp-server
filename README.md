@@ -62,6 +62,9 @@
 ### list_kubernetes_deployments
 列出指定命名空间中的 Deployment
 
+### list_kubernetes_services
+列出指定命名空间中的 Service
+
 ### get_kubernetes_deployment
 查看指定 Deployment 的详细信息（规格、状态、容器、关联 Pod）
 

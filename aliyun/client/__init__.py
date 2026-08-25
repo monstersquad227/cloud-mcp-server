@@ -10,6 +10,7 @@ from .describe_security_groups import AliyunClient as DescribeSecurityGroupsClie
 from .get_account_balance import AliyunClient as GetAccountBalanceClient
 from .get_daily_cost import AliyunClient as GetDailyCostClient
 from .get_monthly_cost import AliyunClient as GetMonthlyCostClient
+from .get_nacos_config import AliyunClient as GetNacosConfigClient
 from .get_nacos_instance import AliyunClient as GetNacosInstanceClient
 from .get_user import AliyunClient as GetUserClient
 from .list_groups import AliyunClient as ListGroupsClient
@@ -33,6 +34,7 @@ __all__ = [
     "GetAccountBalanceClient",
     "GetDailyCostClient",
     "GetMonthlyCostClient",
+    "GetNacosConfigClient",
     "GetNacosInstanceClient",
     "GetUserClient",
     "ListGroupsClient",

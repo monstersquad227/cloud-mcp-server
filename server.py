@@ -22,6 +22,7 @@ from aliyun.tools.get_nacos_instance import register as aliyun_get_nacos_instanc
 from aliyun.tools.list_nacos_configs import register as aliyun_list_nacos_configs_tools
 from aliyun.tools.get_nacos_config import register as aliyun_get_nacos_config_tools
 from aliyun.tools.list_nacos_services import register as aliyun_list_nacos_services_tools
+from aliyun.tools.get_nacos_service import register as aliyun_get_nacos_service_tools
 from k8s.v1_18.tools.get_cluster_info import register as kubernetes_get_cluster_info_tools
 from k8s.v1_18.tools.list_namespaces import register as kubernetes_list_namespaces_tools
 from k8s.v1_18.tools.list_deployments import register as kubernetes_list_deployments_tools
@@ -56,6 +57,7 @@ aliyun_get_nacos_instance_tools(mcp)
 aliyun_list_nacos_configs_tools(mcp)
 aliyun_get_nacos_config_tools(mcp)
 aliyun_list_nacos_services_tools(mcp)
+aliyun_get_nacos_service_tools(mcp)
 kubernetes_get_cluster_info_tools(mcp)
 kubernetes_list_namespaces_tools(mcp)
 kubernetes_list_deployments_tools(mcp)

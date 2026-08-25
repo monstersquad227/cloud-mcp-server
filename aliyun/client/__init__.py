@@ -12,6 +12,7 @@ from .get_daily_cost import AliyunClient as GetDailyCostClient
 from .get_monthly_cost import AliyunClient as GetMonthlyCostClient
 from .get_nacos_config import AliyunClient as GetNacosConfigClient
 from .get_nacos_instance import AliyunClient as GetNacosInstanceClient
+from .get_nacos_service import AliyunClient as GetNacosServiceClient
 from .get_user import AliyunClient as GetUserClient
 from .list_groups import AliyunClient as ListGroupsClient
 from .list_nacos_configs import AliyunClient as ListNacosConfigsClient
@@ -37,6 +38,7 @@ __all__ = [
     "GetMonthlyCostClient",
     "GetNacosConfigClient",
     "GetNacosInstanceClient",
+    "GetNacosServiceClient",
     "GetUserClient",
     "ListGroupsClient",
     "ListNacosConfigsClient",

@@ -3,5 +3,6 @@ python-dotenv
 alibabacloud_bssopenapi20171214
 alibabacloud_ecs20140526
 alibabacloud_ram20150501
+alibabacloud_mse20190531
 datetime
 kubernetes>=18.20.0,<19

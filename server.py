@@ -17,6 +17,8 @@ from aliyun.tools.create_user import register as aliyun_create_user_tools
 from aliyun.tools.add_user_to_group import register as aliyun_add_user_to_group_tools
 from aliyun.tools.list_groups import register as aliyun_list_groups_tools
 from aliyun.tools.remove_user_from_group import register as aliyun_remove_user_from_group_tools
+from aliyun.tools.list_nacos_instances import register as aliyun_list_nacos_instances_tools
+from aliyun.tools.get_nacos_instance import register as aliyun_get_nacos_instance_tools
 from k8s.v1_18.tools.get_cluster_info import register as kubernetes_get_cluster_info_tools
 from k8s.v1_18.tools.list_namespaces import register as kubernetes_list_namespaces_tools
 from k8s.v1_18.tools.list_deployments import register as kubernetes_list_deployments_tools
@@ -46,6 +48,8 @@ aliyun_create_user_tools(mcp)
 aliyun_add_user_to_group_tools(mcp)
 aliyun_list_groups_tools(mcp)
 aliyun_remove_user_from_group_tools(mcp)
+aliyun_list_nacos_instances_tools(mcp)
+aliyun_get_nacos_instance_tools(mcp)
 kubernetes_get_cluster_info_tools(mcp)
 kubernetes_list_namespaces_tools(mcp)
 kubernetes_list_deployments_tools(mcp)

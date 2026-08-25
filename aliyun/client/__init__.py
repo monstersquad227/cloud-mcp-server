@@ -16,6 +16,7 @@ from .get_user import AliyunClient as GetUserClient
 from .list_groups import AliyunClient as ListGroupsClient
 from .list_nacos_configs import AliyunClient as ListNacosConfigsClient
 from .list_nacos_instances import AliyunClient as ListNacosInstancesClient
+from .list_nacos_services import AliyunClient as ListNacosServicesClient
 from .list_policies_for_user import AliyunClient as ListPoliciesForUserClient
 from .list_users import AliyunClient as ListUsersClient
 from .remove_user_from_group import AliyunClient as RemoveUserFromGroupClient
@@ -40,6 +41,7 @@ __all__ = [
     "ListGroupsClient",
     "ListNacosConfigsClient",
     "ListNacosInstancesClient",
+    "ListNacosServicesClient",
     "ListPoliciesForUserClient",
     "ListUsersClient",
     "RemoveUserFromGroupClient",
